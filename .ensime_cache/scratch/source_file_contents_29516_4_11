@@ -1,4 +1,0 @@
-object Test {
-  val t = Dep(1)
-  Dep
-}
