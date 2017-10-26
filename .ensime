@@ -26,7 +26,7 @@
    :name "b"
    :source-roots ("/Users/anorwell/work/ensime_bug/b/src/test/scala")
    :targets ("/Users/anorwell/work/ensime_bug/b/target/scala-2.10/classes")
-   :test-targets ("/Users/anorwell/work/ensime_bug/b/target/scala-2.10/classes" "/Users/anorwell/work/ensime_bug/b/target/scala-2.10/test-classes")
+   :test-targets ("/Users/anorwell/work/ensime_bug/b/target/scala-2.10/test-classes")
    :depends-on-modules ("a")
    :compile-deps nil
    :runtime-deps nil
@@ -71,15 +71,6 @@
     :library-jars nil
     :library-sources nil
     :library-docs ("/Users/anorwell/work/ensime_bug/b/target/scala-2.10/b_2.10-0.1-SNAPSHOT-javadoc.jar")) (
-    :id (:project "b" :config "it")
-    :depends ((:project "a" :config "compile") (:project "b" :config "compile"))
-    :sources nil
-    :targets ("/Users/anorwell/work/ensime_bug/b/target/scala-2.10/classes")
-    :scalac-options ("-feature" "-deprecation" "-Xlint" "-Ywarn-dead-code" "-Ywarn-numeric-widen" "-Xfuture" "-Ymacro-no-expand")
-    :javac-options nil
-    :library-jars nil
-    :library-sources nil
-    :library-docs nil) (
     :id (:project "b" :config "test")
     :depends ((:project "a" :config "compile") (:project "b" :config "compile"))
     :sources ("/Users/anorwell/work/ensime_bug/b/src/test/scala")
